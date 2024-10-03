@@ -23,6 +23,12 @@ The images should also have aesthetic rounded corners.
     gap: 20px;
 }
 
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
 p {
     margin: 0px;
 }
@@ -46,6 +52,10 @@ TODO 4: Change the color of Post button on hover as a visual cue to the user
 Ensure that the text is still readable after the color has been changed.
 */
 
+.pretty-button:hover{
+    background-color: hsl(204, 100%, 50%);
+}
+
 .navbar {
     display: flex;
     justify-content: space-between; /* Space between brand and links */
@@ -53,6 +63,7 @@ Ensure that the text is still readable after the color has been changed.
     background-color: #000000; /* Navbar background color */
     padding: 10px 20px; /* Padding for the navbar */
 }
+
 
 .navbar-brand {
     color: white; /* Brand text color */
